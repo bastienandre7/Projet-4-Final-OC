@@ -669,6 +669,14 @@ h4 {
     animation-duration: 3s;
     visibility: hidden;
     z-index: 0;
+    overflow: hidden;
+}
+
+.footer, #main, .background-restaurant, .display-restaurant, .image-restaurant, 
+.display-bouton-restaurant, .article-restaurant, .margin-texte-bouton, .margin-texte-bouton2,
+.fa-heart, .titre-ohmyfood-homepage, .titre-reservez, .bouton-commander {
+    animation-name: affichage2;
+    animation-duration: 3s;
 }
 
 .container {
@@ -738,6 +746,20 @@ h4 {
     to {
         visibility: hidden;
         z-index: 0;
+    }
+}
+
+@keyframes affichage2 {
+    from {
+        height: 0px;
+    }
+
+    99% {
+        height: 0px;
+    }
+
+    to {
+        height: 100%;
     }
 }
 
