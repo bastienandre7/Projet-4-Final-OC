@@ -216,12 +216,15 @@ a {
     display: flex;
     position: relative;
     color: black;
+    white-space: nowrap;
+    display: inline-block;
 }
 
 
 .coeur-solid {
-    display: flex;
-    position: absolute;
+    position: relative;
+    left: -36px;
+    top: 32px;
     background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
