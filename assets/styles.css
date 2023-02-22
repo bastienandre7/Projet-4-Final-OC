@@ -639,7 +639,7 @@ h4 {
     text-overflow: ellipsis;
 }
 
-p {
+.p-overflow {
     display: block;
     justify-content: left;
     font-size: larger;
@@ -647,6 +647,8 @@ p {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+
 
 
 
