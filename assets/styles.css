@@ -140,17 +140,17 @@ img {
 }
 
 .fa-mobile-screen-button {
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 20px;
 }
 
 .fa-list {
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 20px;
 }
 
 .fa-store {
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 20px;
     color: var(--violet);
 }
@@ -410,6 +410,10 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.modif-h2 {
+    font-size: medium;
 }
 
 .bouton-commande {
@@ -830,6 +834,7 @@ h4 {
         flex-direction: row;
         margin-left: 150px;
         overflow: hidden;
+        margin-right: 20px;
     }
 
     .article-restaurant {
